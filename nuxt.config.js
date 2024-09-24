@@ -1,8 +1,7 @@
 export default {
-  css: [
-    'bootstrap/dist/css/bootstrap.css'
-  ],   
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static', // Menambahkan target static
+
+  // Global page headers
   head: {
     title: 'project-nuxt',
     htmlAttrs: {
@@ -24,26 +23,16 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
+  // Auto import components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+  // Build Configuration
   build: {
-  }
+    // konfigurasi build lainnya...
+  },
+
+  // Global CSS
+  css: [
+    // CSS lainnya...
+  ],
 }
